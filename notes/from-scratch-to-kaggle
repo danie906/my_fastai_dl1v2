@@ -1,0 +1,12 @@
+Step 1 - Setup AWS instance(s).  I like to setup the t2 in addition to the p2 so that you can test and prototype for free in t2.
+https://github.com/reshamas/fastai_deeplearn_part1/blob/master/tools/aws_ami_gpu_setup.md
+https://www.youtube.com/watch?v=JNxcznsrRb8&feature=youtu.be
+
+Install Ubunto app for Windows 10 from App Store. 
+Need to enable Linus for window in PowerShell:
+Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
+Step 2 - Open ssh terminal to AWS and start ubuntu.
+
+
+Install tmux
+Install kaggle-cli
