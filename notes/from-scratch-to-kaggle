@@ -7,18 +7,19 @@ Need to enable Linux for window in PowerShell:
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
 
 ### Open ssh terminal to AWS and start ubuntu.
-ssh ubuntu@[instance ip] -L8888:localhost:8888
+<ssh ubuntu@[instance ip] -L8888:localhost:8888>
 
 ### Update terminal apps
-sudo apt-get update
-sudo apt-get install tmux
+<sudo apt-get update>
+<sudo apt-get install tmux>
 https://hackernoon.com/a-gentle-introduction-to-tmux-8d784c404340
+https://stackoverflow.com/questions/17445100/getting-back-old-copy-paste-behaviour-in-tmux-with-mouse
 
 ### Install kaggle-cli
-pip install kaggle-cli
+<pip install kaggle-cli>
 
 ### Using kaggle-cli
-cd data/[competition_short]
-kg config -g -u 'danie906' -p 'xxx' -c 'competition'
-kg download
+<cd data/[competition_short]>
+<kg config -g -u 'danie906' -p 'xxx' -c 'competition'>
+<kg download>
 
